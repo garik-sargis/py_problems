@@ -12,11 +12,11 @@ def test_product_empty_list():
     verify([], [])
 
 
-def test_product_singleton():
+def test_product_one_num():
     verify([5], [1])
 
 
-def test_product_two_elems():
+def test_product_two_nums():
     verify([2, 3], [3, 2])
 
 
