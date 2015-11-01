@@ -1,4 +1,4 @@
-__author__ = 'Garegin Sargsyan'
+__author__ = 'Garegin Sargsyan, Gevorg Soghomonyan'
 
 
 def product(xs):

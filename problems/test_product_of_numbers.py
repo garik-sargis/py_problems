@@ -1,6 +1,6 @@
 from problems.product_of_numbers import *
 
-__author__ = 'Garegin Sargsyan'
+__author__ = 'Garegin Sargsyan, Gevorg Soghomonyan'
 
 
 def verify(xs, expected_ys):
