@@ -2,16 +2,21 @@ __author__ = 'Garegin Sargsyan, Gevorg Soghomonyan'
 
 
 def product(xs):
-    prod = 1
-    ys = [1] * len(xs)
+    n = len(xs)
+    indexes = range(0, n)
 
-    for i, x in enumerate(xs):
+    # Result
+    ys = [1] * n
+
+    # Forward iteration
+    prod = 1
+    for i in indexes:
         ys[i] *= prod
         prod *= xs[i]
 
+    # Backward iteration
     prod = 1
-
-    for i, x in reversed(list(enumerate(xs))):
+    for i in reversed(indexes):
         ys[i] *= prod
         prod *= xs[i]
 
